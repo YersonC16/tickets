@@ -1,23 +1,28 @@
-<div class="row">
-    <div class="col-md-4 mx-auto">
-        <div class="card">
+<div class="row ">
+    <div class="col-md-4 mx-auto ">
+        <div class="card shadow">
             <div class="card-body">
-                SigIn
+                <h2 class="mx-auto h2salas" style="width: 150px;">SALA DE SISTEMAS</h2>
             </div>
-            <img src="https://res.cloudinary.com/dwk1rxq7g/image/upload/v1684095530/backend%20uts/R_aznxtx.png" class="rounded-circle mx-auto d-block m-4 logo">
-            <div class="card-body">
+            <img src="https://res.cloudinary.com/dwk1rxq7g/image/upload/v1684095530/backend%20uts/R_aznxtx.png" class="mx-auto d-block m-4 logo">
+            <div class="card-body login-form">
                 <form action="/user/signin" method="POST">
-                    <div class="form-group">
-                        <input type="email" class="form-control" name="email" placeholder="Email">
+                    <div class="form-groupDIV">
+                        <input type="email" class="form-controlDIV" name="email" placeholder="Correo Electronico">
                     </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" name="password" placeholder="Password">
+                    <div class="form-groupDIV">
+                        <input type="password" class="form-controlDIV" name="password" placeholder="Contraseña">
                     </div>                   
-                <button class="btn btn-primary btn-block">
-Iniciar Sesion 
+                <button class="btns ">
+                    Iniciar Sesion 
                 </button>
                 </form>
+                <p>No tienes cuenta?
+                    <a href="/user/signup" class="text-decoration-none" > <span class="text-primary ">Registrate aqui.</span> </a>
+                </p>
             </div>
+            
         </div>
     </div>
 </div>
+<br>

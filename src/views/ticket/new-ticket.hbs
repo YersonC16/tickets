@@ -1,24 +1,25 @@
 <div class="col-md-4 mx-auto">
-    <div class="card text-center">
+    <div class="card text-center shadow">
         <div class="card-header">
-            <h3>Nuevo Ticket</h3>
+            <h3 class="nuevoTicket">Nuevo Ticket</h3>
+            <img src="https://www.freeiconspng.com/thumbs/hd-tickets/download-ticket-ticket-free-entertainment-icon-orange-ticket-design-0.png" class="logo" alt="">
         </div>
-        <div class="card-body">
+        <div class="card-body login-form">
             <form action="/tickets/new-ticket" method="post">
 
-                <div class="form-group">
-                    <input type="text" name="nombre" class="form-control" placeholder="Nombre" autofocus required>
+                <div class="form-groupDIV">
+                    <input type="text" name="nombre" class="form-controlDIV" placeholder="Nombre" autofocus required>
                 </div>
-                <div class="form-group">
-                    <input type="text" name="documento" class="form-control" placeholder="Documento" autofocus required>
+                <div class="form-groupDIV">
+                    <input type="text" name="documento" class="form-controlDIV" placeholder="Documento" autofocus required>
                 </div>
-                <div class="form-group">
-                     <textarea name="problema" class="form-control" placeholder="Problema" cols="20" rows="3" autofocus required></textarea>
+                <div class="form-groupDIV">
+                     <textarea name="problema" class="form-controlDIV" placeholder="Problema" cols="20" rows="3" autofocus required></textarea>
                 </div>
                 
-                <div class="form-group">
-                    <button class="btn btn-primary btn-blo">
-                        enviar
+                <div class="form-groupDIV">
+                    <button class="btns">
+                        Ingresar Ticket
                     </button>
                 </div>
             </form>
