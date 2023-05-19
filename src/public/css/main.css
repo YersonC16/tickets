@@ -1,10 +1,17 @@
 body{
     background-color: #edd6d6;
-    transition: background-color 0.5s;
+    transition: background-color 0.5s/*, transform 0.5s*/;
 }
 
 body:hover{
   background-color: #d8dce1;
+  /*transform: rotateX(-2px);*/
+}
+
+#footer{transition: transform 0.5s;}
+
+#footer:hover{
+  transform: rotateX(-2px);
 }
 
 .logo{

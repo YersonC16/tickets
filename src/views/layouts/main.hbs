@@ -32,21 +32,65 @@
     </main>
 
 
-<footer class="footer bg-dark text-light p-6">
-  <div class="container p-6">
-    <div class="row p-6">
-      <div class="col-md-6 p-6">
+
+<footer class="footer bg-dark text-light" id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Enlaces</h5>
+        <ul class="list-unstyled">
+          <li><a href="/" class="text-decoration-none text-light" >Inicio</a></li>
+          <li><a href="/about" class="text-decoration-none text-light" data-bs-toggle="modal" data-bs-target="#miModalfooter">Servicios</a></li>
+          <li><a href="#footer" class="text-decoration-none text-light" data-bs-toggle="modal" data-bs-target="#miModalfooter">Contacto</a></li>
+            <!-- Modal -->
+            <div class="modal fade" id="miModalfooter" tabindex="-1" aria-labelledby="miModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-success" id="miModalLabel">Información</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="p-3 text-dark ">
+                        Estamos trabajando en ello</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+                </div>
+            </div>
+            </div>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Contacto</h5>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-map-marker-alt"></i> Edificio B- 307B: Mar: de 6:00 am a 7:30 am</li>
+          <li><i class="fas fa-phone"></i> Teléfono: 123-456-789</li>
+          <li><i class="fas fa-envelope"></i> Correo electrónico: info@ejemplo.com</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5>Síguenos en</h5>
+        <div class="col-md-6 p-6">
         <div class="d-flex p-6">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Unidades_Tecnol%C3%B3gicas_de_Santander_%28UTS%29_logo.png" alt="Imagen 1" class="img-thumbnail me-3" width="100">
+          <img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a6ac3c481f273141736_icon_clyde_black_RGB.png" alt="Imagen 1" class="img-thumbnail me-3" width="100">
+          Discord:
+          °Dark DC
+          °YersonC16
           <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Logo.png" alt="Imagen 2" class="img-thumbnail" width="100">
+          GitHUB:
+          °Dark
+          °YersonC16
         </div>
       </div>
-      <div class="col-md-6">
-        <p class="text-light">Contenido del footer</p>
       </div>
     </div>
+    <hr>
+    <p class="text-center">&copy; 2023 Nombre de la Empresa. Todos los derechos reservados.</p>
   </div>
 </footer>
+
 
 
 
