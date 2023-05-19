@@ -1,0 +1,33 @@
+body{
+    background-color: #edd6d6;
+    transition: background-color 0.5s;
+}
+
+body:hover{
+  background-color: #d8dce1;
+}
+
+.logo{
+    width: 40%;
+    height: 50%;
+    border: 0.5px solid black;
+}
+.header {
+    background-color: #f1f1f1; /* Color de fondo */
+    background-size: 1%; /* Ajustar la imagen al tamaño del contenedor */
+    height: 10%; /* Altura del encabezado */
+}
+
+.card-container {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  }
+.cards{
+    margin: 5px;
+    
+}
+  .img {
+    width: 100%; /* Ancho fijo */
+    height: 50%; /* Alto fijo */
+  }
